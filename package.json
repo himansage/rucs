@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
-    "build": "rm -rf lib && tsc --project tsconfig.json && cp --parents --cwd src '**/*.js' '!**/*_test.js' ../lib/",
+    "build": "rm -rf lib && tsc --project tsconfig.json",
     "typecheck": "tsc --pretty --noEmit --project tsconfig.json"
   },
   "repository": {
