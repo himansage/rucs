@@ -2,10 +2,10 @@
   "name": "rucs",
   "version": "0.1.0-beta0",
   "description": "Reusable components for building web application.",
-  "main": "/lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
-    "build": "rm -rf lib && tsc --project tsconfig.json",
+    "build": "rm -rf lib && tsc --project tsconfig.json && cp --parents --cwd src '**/*.js' '!**/*_test.js' ../lib/",
     "typecheck": "tsc --pretty --noEmit --project tsconfig.json"
   },
   "repository": {
