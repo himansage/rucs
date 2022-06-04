@@ -1,6 +1,6 @@
 {
   "name": "rucs",
-  "version": "0.1.0-beta0",
+  "version": "0.1.0-beta1",
   "description": "Reusable components for building web application.",
   "main": "lib/index.js",
   "scripts": {
